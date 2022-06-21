@@ -1,0 +1,3 @@
+{
+    "presets": ["@babel/preset-env"] // 바벨 플러그인 모음
+}
