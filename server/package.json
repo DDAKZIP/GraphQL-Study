@@ -29,6 +29,7 @@
         "compression": "^1.7.4",
         "dotenv": "^16.0.1",
         "express": "^4.18.1",
+        "graphql-voyager": "^1.0.0-rc.31",
         "promise-mysql": "^5.2.0"
     }
 }
