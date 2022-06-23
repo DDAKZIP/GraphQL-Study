@@ -6,6 +6,7 @@
 
 ![Generic badge](https://img.shields.io/badge/Node-v16.15.1-green.svg)
 ![Generic badge](https://img.shields.io/badge/Mysql-v8.0.29-orange.svg)
+![Generic badge](https://img.shields.io/badge/React-v18.2.0-skyblue.svg)
 
 <hr>
 
@@ -22,7 +23,13 @@ DB_NAME="DB명"
 
 <hr>
 
-### 참고 블로그 모음
+### 참고 Docs
+
+`graphql-voyager`
+
+-   https://www.npmjs.com/package/graphql-voyager#express
+
+### 참고 Blog
 
 `GraphQL`
 
