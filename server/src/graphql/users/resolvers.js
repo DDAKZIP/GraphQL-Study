@@ -1,5 +1,5 @@
-import user from "../db/models/user";
-import StatusCode from "../constants/statusCode";
+import user from "../../db/models/user";
+import StatusCode from "../../constants/statusCode";
 
 const resolvers = {
     Query: {

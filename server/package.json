@@ -24,7 +24,10 @@
         "nodemon": "^2.0.16"
     },
     "dependencies": {
+        "@graphql-tools/merge": "^8.3.0",
+        "@graphql-tools/schema": "^8.5.0",
         "apollo-server-express": "^3.9.0",
+        "apollo-server-micro": "^3.9.0",
         "body-parser-graphql": "^1.1.0",
         "compression": "^1.7.4",
         "dotenv": "^16.0.1",
