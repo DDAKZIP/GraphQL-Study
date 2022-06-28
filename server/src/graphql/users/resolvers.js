@@ -10,8 +10,12 @@ const resolvers = {
     },
 
     Mutation: {
-        addUser: async (_, { userId, userName }) => {
-            const result = await user.insert(userId, userName);
+        addUser: async (_, { USER_LOGIN_TYPE, USER_PHONE, USER_EMAIL }) => {
+            const result = await user.insert(
+                USER_LOGIN_TYPE,
+                USER_PHONE,
+                USER_EMAIL
+            );
             return result.code === StatusCode.OK ? true : false;
         },
     },
